@@ -1,0 +1,259 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+body{
+background-color: #797575;
+
+}
+.saxeli {
+    color: #F9E076;
+    font-family:serif;
+width: 100px;
+}
+
+.s {
+   margin-top: -50px;
+   margin-left: 70px;
+   transition: 0.5s;
+   color: white;
+   inline-size: 0%;
+   
+}
+.s:hover{
+   transform: scale(1.5);
+
+}
+
+.s1 {
+    margin-left: 180px;
+    margin-top: -42px;
+    color: rgb(255, 255, 255);
+   transition: 0.5s;
+   position: absolute;
+  
+  
+   
+}
+.s1:hover{
+    transform: scale(1.5);
+ 
+ }
+
+.s2 {
+    margin-left: 1600px;
+    margin-top: -42px;
+    color:white;
+    transition: 0.5s;
+}
+
+.s2:hover{
+    transform: scale(1.5);
+ 
+ }
+.img1 {
+    width: 400px;
+    height: 600px;
+    margin-left: 1100px;
+    margin-top: 150px;
+    
+}
+.svg1 {
+    margin-top: -300px;
+    margin-left: 0px;
+    transform: scale(1.1);
+    
+}
+
+
+.te { 
+    margin-top: -500px;
+    margin-left: 800px;
+    transform: scale(1.2);
+    color:#F9E076;
+    position: absolute;
+}
+
+.tri1{
+   
+        width: 0;
+        height: 0;
+        border-left: 100px solid transparent;
+        border-right: 100px solid transparent;
+        border-bottom: 100px solid #F9E076;
+        transform: rotate(25deg);
+       position:absolute;
+       margin-left: 105px;
+       margin-top: 300px;
+       
+    }
+
+    .tri2{
+   
+        width: 0;
+        height: 0;
+        border-left: 70px solid transparent;
+        border-right: 70px solid transparent;
+        border-bottom: 70px solid #ffffff;
+        transform: rotate(150deg);
+       position:absolute;
+       margin-left: 1700px;
+       margin-top: 100px;
+       
+    }
+
+    
+    .tri3{
+   
+        width: 0;
+        height: 0;
+        border-left: 120px solid transparent;
+        border-right: 120px solid transparent;
+        border-bottom: 120px solid #635D5D;
+        transform: rotate(-30deg);
+       position:absolute;
+       margin-left: 1600px;
+       margin-top: 450px;
+
+    }
+::-webkit-scrollbar{
+    display: none;
+}
+#secp {
+    position: absolute;
+background-color: #F9E076;
+width: 2100px;
+height: 800px;
+margin-left: -10px;
+margin-top: -10px;
+
+
+}
+
+#bf3{
+    position: fixed;
+    z-index: 100;
+}
+.ftx {
+    width: 500px;
+    height: 300px;
+    background-color: #797575;
+   position: absolute;
+   margin-left: 750px;
+   margin-top: 100px;
+justify-content: center;
+   align-items: center;
+   display: flex;
+    
+}
+
+.li1 { 
+    color: white;
+
+}
+.fb {
+    transform: scale(0.1);
+    position: absolute;
+    margin-top: 350px;
+}
+.svg2 {
+    
+    
+    margin-top: 800px;
+    transform: scale(33);
+  
+}
+
+.webd {
+    position: absolute;
+    margin-left: 850px;
+    transform: scale(2);
+}
+.img2 {
+    position: absolute;
+    transform: scale(0.3);
+    margin-left: 800px;
+    margin-top: 600px;
+}
+#thirdp {
+    position: absolute;
+    background-color: #797575;
+    width: 2100px;
+height: 800px;
+margin-top: 1000px;
+}
+
+.por1 {
+    color: white;
+    position: absolute;
+    transform:translateX(850px);
+}
+.sk1 {
+    color: white;
+    position: absolute;
+   transform: translateX(220px);
+    margin-top: 0px;
+    
+}
+
+.skill {
+    width: 500px;
+    margin: 60px auto;
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.skill li {
+    margin: 20px 0;
+    padding: 10px;
+}
+
+.bar {
+    background: #353b48;
+    display: block;
+    height: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.bar:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.bar span {height: 20px;
+    float: left;
+    background: linear-gradient(135deg, rgba(236, 0, 140, 1)0%, rgba(252, 103, 103, 1)100%);
+}
+.HTML {
+    width: 70%;
+    animation: HTML 5s;
+}
+
+.css {
+    width: 50%;
+    animation: css 5s;
+}
+
+@keyframes HTML{
+    0%{
+width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+@keyframes css{
+    0%{
+width: 0%;
+    }
+    100%{
+        width: 50%;
+    }
+}
+
+.svg3 {
+    position: absolute;
+    margin-top: 350px;
+}
